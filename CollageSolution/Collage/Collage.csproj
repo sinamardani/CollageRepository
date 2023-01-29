@@ -11,9 +11,9 @@
     <Folder Include="Controllers\" />
     <Folder Include="Interface\" />
     <Folder Include="EfCoreContext\" />
+    <Folder Include="BaseModels\" />
     <Folder Include="wwwroot\" />
     <Folder Include="ViewModels\" />
-    <Folder Include="Views\" />
   </ItemGroup>
 
 </Project>

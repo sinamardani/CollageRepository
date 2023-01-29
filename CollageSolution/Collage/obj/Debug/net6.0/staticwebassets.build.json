@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "vvYnEVAtPMVX0O5AI79N0UygUdU/p3Sktp7KvNUYtfk=",
+  "Source": "Collage",
+  "BasePath": "_content/Collage",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Collage\\wwwroot",
+      "Source": "Collage",
+      "ContentRoot": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\",
+      "BasePath": "_content/Collage",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
