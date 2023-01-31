@@ -1,0 +1,142 @@
+﻿<div class="position-fixed bottom-0 p-3" style="z-index: 11" id="toast">
+</div>
+
+
+<div class="container-fluid page-header vazir-font-medium " style="margin-bottom: 90px;">
+    <div class="container">
+        <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
+            <h3 class="display-4 text-white text-uppercase text-right text-gradient-caption  ">ارتباط‌باما</h3>
+            <div class="d-inline-flex text-white text ">
+                <p class="m-0 text-uppercase"><a class="text-white" href="@Url.Action("Main","Home")">صفحه‌اصلی</a></p>
+                <i class="fa fa-angle-double-right pt-1 px-3 arrow-transform"></i>
+                <p class="m-0 text-uppercase">اطلاعات مربوط به آدرس</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card m-5 vazir-font-medium">
+    <div class="card-header">
+        <p class="text-right vazir-font-medium">استان ها</p>
+    </div>
+    <div class="card-body bg-secondary">
+        <div class="row">
+            <div class="col-lg-4 mb-3">
+                <div class="control-group">
+                    <input type="text" disabled class="form-control border-0 p-4" id="txtProvinceId" placeholder="کد استان" />
+                </div>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <div class="control-group">
+                    <input type="text" class="form-control border-0 p-4" id="txtProvinceName" placeholder="نام استان" />
+                </div>
+            </div>
+            <div class="col-lg-4 mb-3 text-right">
+                <div class="control-group">
+                    <input type="button" class="form-control btn btn-success col-5 mt-1" id="btnProvinceSubmit" value="ثبت" />
+                    <input type="button" class="form-control btn btn-warning col-5 mt-1 disable" id="btnProvinceCancel" value="انصراف" />
+                </div>
+            </div>
+        </div>
+        <div class="row"></div>
+    </div>
+</div>
+
+<hr class="mr-3 ml-3" />
+
+<div class="card m-5 vazir-font-medium">
+    <div class="card-header">
+        <p class="text-right vazir-font-medium">شهر ها</p>
+    </div>
+    <div class="card-body bg-secondary">
+        <div class="row">
+            <div class="col-lg-4 mb-3">
+                <div class="control-group">
+                    <input type="hidden" id="txtProvinceIdForCity" />
+                    <input disabled type="text" class="form-control border-0 p-4" id="txtCityId" placeholder="کد شهر" />
+                </div>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <div class="control-group">
+                    <input type="text" class="form-control border-0 p-4" id="txtCityName" placeholder="نام شهر" />
+                </div>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <div class="control-group">
+                    @(Html.DevExtreme().DropDownBox()
+                        .Value(2)
+                        .ValueExpr("ID")
+                        .DisplayExpr(new JS("gridBox_displayExpr"))
+                        .DataSource(d => d.Mvc()
+                        .Controller("AddressSetting")
+                        .LoadAction("GetProvince")
+                        .LoadMode(DataSourceLoadMode.Raw)
+                        .Key("ID")
+                        )
+                        .Placeholder("استان موردنظرخودرااناخاب کنید")
+                        @*.ShowClearButton(true)*@
+                        .OnValueChanged("gridBox_valueChanged")
+                        .ContentTemplate(new TemplateName("EmbeddedDataGridSingle"))
+                        )
+                </div>
+
+
+
+                @using (Html.DevExtreme().NamedTemplate("EmbeddedDataGridSingle"))
+                {
+                    @(Html.DevExtreme().DataGrid()
+                        .ID("embedded-datagrid")
+                        .DataSource(new JS(@"component.getDataSource()"))
+                        .Columns(columns =>
+                        {
+                            columns.Add().Visible(false).Caption("کداستان").DataField("ID");
+                            columns.Add().Caption("نام استان").DataField("ProvinceName");
+                        })
+                        .HoverStateEnabled(true)
+                        .Paging(p => p.PageSize(10))
+                        .FilterRow(f => f.Visible(true))
+                        .Scrolling(s => s.Mode(GridScrollingMode.Virtual))
+                        .Height(345)
+                        .Selection(s => s.Mode(SelectionMode.Single))
+                        .SelectedRowKeys(new JS(@"component.option(""value"") ? [component.option(""value"")] : []"))
+                        .OnSelectionChanged(@<text>
+                            function(selectedItems) {
+                            var keys = selectedItems.selectedRowKeys;
+                            component.option("value", keys);
+                            component.close();
+                            }
+                        </text>)
+                        )
+                }
+
+                <script>
+
+                    function gridBox_valueChanged(e) {
+                        var dataGrid =  document.getElementById("embedded-datagrid");
+
+                        if (dataGrid.length) {
+                            var dataGrid = dataGrid.dxDataGrid("instance");
+                            dataGrid.selectRows(e.value, false);
+                        }
+                    }
+
+                    function gridBox_displayExpr(item) {
+                        document.getElementById("txtProvinceIdForCity").innerText = item.ID
+                        return item && item.ProvinceName
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 mb-3 ">
+                <div class="control-group">
+                    <input type="button" class="form-control btn btn-success  mt-1" id="btnCitySubmit" value="ثبت" />
+                    <input type="button" class="form-control btn btn-warning  mt-1 " id="btnCityCancel" value="انصراف" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script src="~/js/AddressSetingPages/AddressSettingCtrl.js"></script>
+}

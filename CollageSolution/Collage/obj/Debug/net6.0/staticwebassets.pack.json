@@ -1,0 +1,1177 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx-diagram.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-diagram.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx-diagram.min.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-diagram.min.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx-gantt.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-gantt.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx-gantt.min.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-gantt.min.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.carmine.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.carmine.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.carmine.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.carmine.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.contrast.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.contrast.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.contrast.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.contrast.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.dark.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.dark.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.darkmoon.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkmoon.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.darkmoon.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkmoon.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.darkviolet.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkviolet.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.darkviolet.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkviolet.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.greenmist.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.greenmist.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.greenmist.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.greenmist.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.light.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.light.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.blue.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.dark.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.blue.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.dark.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.blue.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.light.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.blue.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.light.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.lime.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.dark.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.lime.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.dark.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.lime.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.light.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.lime.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.light.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.orange.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.dark.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.orange.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.dark.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.orange.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.light.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.orange.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.light.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.purple.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.dark.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.purple.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.dark.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.purple.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.light.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.purple.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.light.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.teal.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.dark.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.teal.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.dark.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.teal.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.light.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.material.teal.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.light.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.softblue.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.softblue.compact.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\dx.softblue.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.softblue.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-300.ttf"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-300.woff"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-300.woff2"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-400.ttf"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-400.woff"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-400.woff2"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-500.ttf"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-500.woff"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-500.woff2"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-700.ttf"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-700.woff"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-700.woff2"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\icons\\dxicons.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxicons.ttf"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\icons\\dxicons.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxicons.woff"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\icons\\dxicons.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxicons.woff2"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsmaterial.ttf"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsmaterial.woff"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsmaterial.woff2"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\fonts.css",
+      "PackagePath": "staticwebassets\\css\\fonts.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\css\\toast.css",
+      "PackagePath": "staticwebassets\\css\\toast.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\blog-80x80.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-80x80.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\carousel-3.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-3.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-1.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-2.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-3.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-4.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\cat-5.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-5.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\cat-6.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-6.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\cat-7.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-7.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\cat-8.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-8.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\course-1.jpg",
+      "PackagePath": "staticwebassets\\img\\course-1.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\course-2.jpg",
+      "PackagePath": "staticwebassets\\img\\course-2.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\course-3.jpg",
+      "PackagePath": "staticwebassets\\img\\course-3.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\course-4.jpg",
+      "PackagePath": "staticwebassets\\img\\course-4.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\course-5.jpg",
+      "PackagePath": "staticwebassets\\img\\course-5.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\course-6.jpg",
+      "PackagePath": "staticwebassets\\img\\course-6.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\page-header.jpg",
+      "PackagePath": "staticwebassets\\img\\page-header.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\registration.jpg",
+      "PackagePath": "staticwebassets\\img\\registration.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\img\\user.jpg"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\AddressSetingPages\\AddressSettingCtrl.js",
+      "PackagePath": "staticwebassets\\js\\AddressSetingPages\\AddressSettingCtrl.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\ContactUsPages\\ContactUsCtrl.js",
+      "PackagePath": "staticwebassets\\js\\ContactUsPages\\ContactUsCtrl.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\FileSaver.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\FileSaver.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\FileSaver.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\FileSaver.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\aspnet\\dx.aspnet.data.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\aspnet\\dx.aspnet.data.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\aspnet\\dx.aspnet.mvc.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\aspnet\\dx.aspnet.mvc.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\cldr.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\cldr.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\cldr\\event.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\event.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\cldr\\event.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\event.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\cldr\\supplemental.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\supplemental.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\cldr\\supplemental.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\supplemental.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\cldr\\unresolved.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\unresolved.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\cldr\\unresolved.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\cldr\\unresolved.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\dx-diagram.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-diagram.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\dx-diagram.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-diagram.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\dx-gantt.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-gantt.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\dx-gantt.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-gantt.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\dx-quill.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-quill.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\dx-quill.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx-quill.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\dx.all.debug.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.all.debug.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\dx.all.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.all.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\dx.viz.debug.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.viz.debug.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\dx.viz.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.viz.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\dx.web.debug.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.web.debug.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\dx.web.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\dx.web.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\exceljs.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\exceljs.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\exceljs.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\exceljs.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\globalize.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\globalize.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\globalize\\currency.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\currency.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\globalize\\currency.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\currency.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\globalize\\date.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\date.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\globalize\\date.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\date.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\globalize\\message.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\message.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\globalize\\message.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\message.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\globalize\\number.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\number.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\globalize\\number.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\globalize\\number.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jquery.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\jspdf.plugin.autotable.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jspdf.plugin.autotable.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\jspdf.plugin.autotable.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jspdf.plugin.autotable.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\jspdf.umd.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jspdf.umd.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\jspdf.umd.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jspdf.umd.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\jszip.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jszip.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\jszip.min.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\jszip.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.ar.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ar.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.ca.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ca.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.cs.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.cs.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.de.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.de.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.el.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.el.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.en.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.en.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.es.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.es.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.fi.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.fi.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.fr.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.fr.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.hu.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.hu.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.it.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.it.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.ja.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ja.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.lt.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.lt.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.nb.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.nb.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.nl.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.nl.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.pt.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.pt.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.ro.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ro.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.ru.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.ru.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.sl.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.sl.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.sv.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.sv.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.tr.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.tr.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.vi.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.vi.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.zh-tw.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.zh-tw.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\localization\\dx.messages.zh.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\localization\\dx.messages.zh.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\vectormap-data\\africa.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\africa.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\vectormap-data\\canada.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\canada.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\vectormap-data\\eurasia.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\eurasia.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\vectormap-data\\europe.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\europe.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\vectormap-data\\usa.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\usa.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\vectormap-data\\world.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-data\\world.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.debug.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.debug.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js",
+      "PackagePath": "staticwebassets\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Collage.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Collage.props",
+      "PackagePath": "build\\Collage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Collage.props",
+      "PackagePath": "buildMultiTargeting\\Collage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Collage.props",
+      "PackagePath": "buildTransitive\\Collage.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

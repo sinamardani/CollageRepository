@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "EZZX90vAxq71FjZCGHWGENIa6pLdyJz9SwKG5GsVcfosRpL373r1PSGl+UgBTfStrcAq4U2TIpaiIqykw93+Ug==",
+  "dgSpecHash": "5tirgg1sNUnVF2djRBiF+vZMqjwOObSH0z7iZwPmZKI1rMagLJ+mGbzd7VrJrq7VQ9SHI62bHiQLQNBXMLjR4g==",
   "success": true,
   "projectFilePath": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\Collage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\S.M\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\S.M\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\S.M\\.nuget\\packages\\devextreme.aspnet.core\\22.2.3\\devextreme.aspnet.core.22.2.3.nupkg.sha512",
+    "C:\\Users\\S.M\\.nuget\\packages\\devextreme.aspnet.data\\2.8.6\\devextreme.aspnet.data.2.8.6.nupkg.sha512",
     "C:\\Users\\S.M\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\S.M\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\S.M\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -42,6 +44,7 @@
     "C:\\Users\\S.M\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\S.M\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\S.M\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\S.M\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\S.M\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\S.M\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\S.M\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

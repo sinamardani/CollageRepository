@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+
+<html dir="rtl">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>هنرستان سخاوت</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="~/css/devextreme/dx.light.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/fonts.css">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/css/style.css" rel="stylesheet">
+    <link href="~/css/toast.css" rel="stylesheet" />
+
+
+@*    <link href="~/css/devextreme/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/devextreme/dx.light.css" rel="stylesheet" />*@
+
+    <script src="~/js/devextreme/jquery.js"></script>
+    <script src="~/js/devextreme/bootstrap.js"></script>
+
+    <script src="~/js/devextreme/dx.all.js"></script>
+
+    <script src="~/js/devextreme/aspnet/dx.aspnet.mvc.js"></script>
+    <script src="~/js/devextreme/aspnet/dx.aspnet.data.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid d-none d-lg-block ">
+        <div class="row align-items-center py-4 px-xl-5 vazir-font-bold">
+            <div class="col-lg-3 text-right">
+                <a href="" class="text-decoration-none text-center">
+                    <h1 class="m-0 text-gradient-caption" style="font-size: 1.4rem;">
+                        هنرستان‌فنی‌وحرفه‌ای
+                        <span class="text-gradient-subject" style="font-size: 1.8rem;">سخاوت</span>
+                    </h1>
+                </a>
+            </div>
+            <div class="col-lg-3 text-right font-weight-semi-bold">
+                <div class="d-inline-flex align-items-center">
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1  text-right">آدرس‌مرکز</h6>
+                        <small class="vazir-font-medium">اصفهان - ابتدای آبشار سوم</small>
+                    </div>
+                    <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1 text-right">تماس‌باما</h6>
+                        <small class="vazir-font-medium">03130000000</small>
+                    </div>
+                    <i class="fa fa-2x fa-phone text-primary mr-3"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1 text-right">ایمیل‌ما</h6>
+                        <small class="vazir-font-medium">info@example.com</small>
+                    </div>
+                    <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="container-fluid vazir-font-medium position-sticky-custom">
+    <div class="row border-top px-xl-5">
+            <div class="col-lg-3 d-none d-lg-block">
+                <a class="d-flex align-items-center justify-content-between bg-secondary w-100 text-decoration-none"
+                   data-toggle="collapse" href="#navbar-vertical" style="height: 67px; padding: 0 30px;">
+                    <h5 class=" m-0"><i class="fa fa-book-open ml-3"></i>اطلاعات‌پایه</h5>
+                    <i class="fa fa-angle-down text-primary"></i>
+                </a>
+                <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0 bg-light"
+                     id="navbar-vertical" style="width: calc(100% - 30px); z-index: 9;">
+                    <div class="navbar-nav w-100">
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link text-right" data-toggle="dropdown">
+                                اطلاعات‌مربوط به آدرس
+                                <i class="fa fa-angle-down float-left mt-1 ml-3"></i>
+                            </a>
+                            <div class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0 text-center">
+                                @*<a href="" class="dropdown-item">کشور</a>*@
+                                <a href="@Url.Action("AddressSettingView","AddressSetting")" class="dropdown-item">استان</a>
+                                <a href="" class="dropdown-item">شهر</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link text-right" data-toggle="dropdown">
+                                برنامه‌ریزی
+                                <i class="fa fa-angle-down float-left mt-1 ml-3"></i>
+                            </a>
+                            <div class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0 text-center">
+                                <a href="" class="dropdown-item">برنامه‌هفتگی</a>
+                                <a href="" class="dropdown-item">برنامه‌امتحانی</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link text-right">رشته‌تحصیلی</a>
+                        <a href="#" class="nav-item nav-link text-right">مدرک‌تحصیلی</a>
+                        <a href="#" class="nav-item nav-link text-right">نوع‌سوالات امتحانی</a>
+                        <a href="#" class="nav-item nav-link text-right">نوع‌ارتباط مخاطب</a>
+                        <a href="#" class="nav-item nav-link text-right">گروه‌های درسی</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
+                    <a href="" class="text-decoration-none d-block d-lg-none">
+                        <h1 class="m-0 text-gradient-caption" style="font-size: 1rem;">
+                            هنرستان‌فنی‌وحرفه‌ای
+                            <span class="text-gradient-subject" style="font-size: 1.4rem;">سخاوت</span>
+                        </h1>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav py-0">
+                            <a href="@Url.Action("Main","Home")" class="nav-item nav-link active align-items-center">صفحه اصلی</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle align-items-center" data-toggle="dropdown">ثبت‌اطلاعات</a>
+                                <div class="dropdown-menu rounded-0 m-0 text-right">
+                                    <a href="#" class="dropdown-item text-center">دانش‌آموزان</a>
+                                    <a href="#" class="dropdown-item text-center">معلمان</a>
+                                    <a href="#" class="dropdown-item text-center">کلاس‌ها</a>
+                                    <a href="#" class="dropdown-item text-center">کارنامه</a>
+                                    <a href="#" class="dropdown-item text-center">نمرات</a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle align-items-center" data-toggle="dropdown">خدمات</a>
+                                <div class="dropdown-menu rounded-0 m-0 text-right">
+                                    <a href="#" class="dropdown-item text-center">خدمات‌استادان</a>
+                                    <a href="#" class="dropdown-item text-center">طراحی‌سوالات</a>
+                                    <a href="#" class="dropdown-item text-center">کارت‌ورودبه‌جلسه</a>
+                                    <a href="#" class="dropdown-item text-center">نظرسنجی</a>
+                                    <a href="#" class="dropdown-item text-center">خدمات‌دانش‌آموزی</a>
+                                </div>
+                            </div>
+                            <a href="#" class="nav-item nav-link align-items-center">تنظیمات</a>
+                            <a href="teacher.html" class="nav-item nav-link align-items-center">درباره‌ما</a>
+                            <a href="@Url.Action("ContactUsView","ContactUs")" class="nav-item nav-link align-items-center">ارتباط‌باما</a>
+                        </div>
+                        <a class="btn btn-dark py-2 px-4 mr-auto d-none d-lg-block" style="width: 130px;" href="">ورود</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <main>
+        @RenderBody()
+    </main>
+    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="col-lg-7 col-md-12">
+                <div class="row text-right vazir-font-medium">
+                    <div class="col-md-6 mb-5">
+                        <h5 class="text-primary text-uppercase mb-4 " style="letter-spacing: 1.5px;">آدرس‌ها</h5>
+                        <p><i class="fa fa-map-marker-alt ml-3"></i>اصفهان - ابتدای آبشار سوم</p>
+                        <p><i class="fa fa-phone-alt ml-3"></i>03130000000</p>
+                        <p><i class="fa fa-envelope ml-3"></i>info@example.com</p>
+                        <div class="d-flex justify-content-start mt-4">
+                            <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-square mr-2" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="btn btn-outline-light btn-square mr-2" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-5 ">
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 1.5px;">دسترسی سریع سایت</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white mb-2 quick-link" href="#"><i class="fa fa-angle-right mr-2 arrow-transform"></i>صفحه‌اصلی</a>
+                            <a class="text-white mb-2 quick-link" href="#"><i class="fa fa-angle-right mr-2 arrow-transform"></i>اطلاعات پایه</a>
+                            <a class="text-white mb-2 quick-link" href="#"><i class="fa fa-angle-right mr-2 arrow-transform"></i>حضوروغیاب</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 mb-5 text-right vazir-font-medium">
+                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 2px;">ارسال نظرات و پیشنهادات</h5>
+                <p>برای بهبود در کیفیت آموزشی میتونید با وارد کردن ایمیل خود با ما ارتباط بگیریدو نظرات خود را درباره مدرسه و وضعیت آموزشی بگویید</p>
+                <div class="w-100">
+                    <div class="input-group" style="flex-direction: row-reverse;">
+                        <input type="text" class="form-control border-light" style="padding: 30px;text-align: left;"
+                               placeholder="لطفا ایمیل خود را وارد نمایدد!">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary px-4">ارسال</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/easing/easing.min.js"></script>
+    <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="~/js/main.js"></script>
+
+    @RenderSection("Scripts",false)
+
+
+</body>
+
+</html>

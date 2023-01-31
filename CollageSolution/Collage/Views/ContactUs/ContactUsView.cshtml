@@ -1,0 +1,55 @@
+﻿<div class="position-fixed bottom-0 p-3" style="z-index: 11" id="toast">
+</div>
+<div class="container-fluid page-header vazir-font-medium" style="margin-bottom: 90px;">
+    <div class="container">
+        <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
+            <h3 class="display-4 text-white text-uppercase text-right text-gradient-caption  ">ارتباط‌باما</h3>
+            <div class="d-inline-flex text-white text ">
+                <p class="m-0 text-uppercase"><a class="text-white" href="">صفحه‌اصلی</a></p>
+                <i class="fa fa-angle-double-right pt-1 px-3 arrow-transform"></i>
+                <p class="m-0 text-uppercase">ارتباط‌باما</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5">
+    <div class="container py-5 vazir-font-medium">
+        <div class="text-center mb-5">
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 1.5px;">ارتباط</h5>
+            <h1>ارتباط‌باما برای هر مشکل یا نظری</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="contact-form bg-secondary rounded p-5">
+                    <div id="success"></div>
+                    <form name="sentMessage" id="contactForm">
+                        <div class="control-group">
+                            <input type="text" class="form-control border-0 p-4" id="name" placeholder="نام" />
+                            <p class="help-block text-danger text-right" id="nameInputError"></p>
+                        </div>
+                        <div class="control-group">
+                            <input class="form-control border-0 p-4" id="email" placeholder="ایمیل" />
+                            <p class="help-block text-danger text-right" id="mailInputError"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control border-0 p-4" id="subject" placeholder="عنوان" />
+                            <p class="help-block text-danger text-right" id="subjectInputError"></p>
+                        </div>
+                        <div class="control-group">
+                            <textarea class="form-control border-0 py-3 px-4" rows="5" id="message" placeholder="پیفام"></textarea>
+                            <p class="help-block text-danger text-right" id="messageInputError"></p>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-primary py-3 px-5" type="button" id="sendMessag">ارسال پیام</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/ContactUsPages/ContactUsCtrl.js"></script>
+}
