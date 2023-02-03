@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllersWithViews().AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
+builder.Services.AddControllersWithViews();
 
 //Server Side
 var connectionString = builder.Configuration.GetConnectionString("CollagSolution");
@@ -14,6 +14,7 @@ builder.Services.AddDbContext<DBSContext>(connection => connection.UseSqlServer(
 
 //Interface scopes
 builder.Services.AddScoped<IAddressSettingRepository, EfAddressSettingRepository>();
+builder.Services.AddScoped<IPrecenceAbsecenceRepository, EfPrecenceAbsecenceRepository>();
 
 var app = builder.Build();
 

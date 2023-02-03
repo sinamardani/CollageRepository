@@ -10,6 +10,8 @@ namespace Collage.EfCoreContext.ConnectionSetting
         public DbSet<ContactUs> ContactUs { get; set; }
         public DbSet<City> Cities { get; set; }
         public DbSet<Province> Provinces { get; set; }
+        public DbSet<Stu> Students { get; set; }
+        public DbSet<PrecenceAbcenceS> PrecenceAbcences { get; set; } 
         public DBSContext(DbContextOptions options) : base(options)
         {
 
@@ -19,6 +21,8 @@ namespace Collage.EfCoreContext.ConnectionSetting
             modelBuilder.Entity<ContactUs>();
             modelBuilder.Entity<City>();
             modelBuilder.Entity<Province>();
+            modelBuilder.Entity<Stu>();
+            modelBuilder.Entity<PrecenceAbcenceS>();
             base.OnModelCreating(modelBuilder);
         }
     }

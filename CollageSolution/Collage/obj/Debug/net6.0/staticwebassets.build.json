@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t0OvPAxww7ZhgjxSSq0+SE6I0KLadjdd6BX/UsOT9/M=",
+  "Hash": "O1iR53KuwZwCXBm6oe5Tjun3WouTe9kVPZFDz9hHGXA=",
   "Source": "Collage",
   "BasePath": "_content/Collage",
   "Mode": "Default",
@@ -3160,6 +3160,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\main.js"
+    },
+    {
+      "Identity": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\PrecenceAbsencePages\\PrecenceAbcenceCtrl.js",
+      "SourceId": "Collage",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\",
+      "BasePath": "_content/Collage",
+      "RelativePath": "js/PrecenceAbsencePages/PrecenceAbcenceCtrl.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\PrecenceAbsencePages\\PrecenceAbcenceCtrl.js"
     },
     {
       "Identity": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\lib\\easing\\easing.js",

@@ -421,6 +421,10 @@
       "PackagePath": "staticwebassets\\js\\ContactUsPages\\ContactUsCtrl.js"
     },
     {
+      "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\PrecenceAbsencePages\\PrecenceAbcenceCtrl.js",
+      "PackagePath": "staticwebassets\\js\\PrecenceAbsencePages\\PrecenceAbcenceCtrl.js"
+    },
+    {
       "Id": "D:\\GIT\\CollageRepository\\CollageSolution\\Collage\\wwwroot\\js\\devextreme\\FileSaver.js",
       "PackagePath": "staticwebassets\\js\\devextreme\\FileSaver.js"
     },
