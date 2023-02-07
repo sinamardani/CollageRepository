@@ -1,9 +1,9 @@
-﻿using Collage.Models;
+﻿using Collage.Models.PrecenceAbcence;
 
 namespace Collage.Interface
 {
     public interface IPrecenceAbsecenceRepository
     {
-        List<Stu> GetStudents();
+        List<Student> GetStudents();
     }
 }

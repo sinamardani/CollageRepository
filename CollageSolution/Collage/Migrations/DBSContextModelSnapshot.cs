@@ -156,52 +156,7 @@ namespace Collage.Migrations
                     b.ToTable("ContactUs");
                 });
 
-            modelBuilder.Entity("Collage.Models.PrecenceAbcence.PrecenceAbcenceS", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
-
-                    b.Property<DateTime>("CreateDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("CreateUser")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("DeletedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsActivated")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("IsUpdated")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("PrecenceOrAbcenceStatus")
-                        .HasColumnType("int");
-
-                    b.Property<int>("StudensID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("StudentId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("StudensID");
-
-                    b.ToTable("PrecenceAbcences");
-                });
-
-            modelBuilder.Entity("Collage.Models.Student.Stu", b =>
+            modelBuilder.Entity("Collage.Models.PrecenceAbcence.Student", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -247,6 +202,48 @@ namespace Collage.Migrations
                     b.ToTable("Students");
                 });
 
+            modelBuilder.Entity("Collage.Models.PrecenceAbcenceS", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("CreateUser")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsActivated")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsUpdated")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("PrecenceOrAbcenceStatus")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("StudentId");
+
+                    b.ToTable("PrecenceAbcences");
+                });
+
             modelBuilder.Entity("Collage.Models.AddressSetting.City", b =>
                 {
                     b.HasOne("Collage.Models.AddressSetting.Province", "Provinces")
@@ -258,15 +255,15 @@ namespace Collage.Migrations
                     b.Navigation("Provinces");
                 });
 
-            modelBuilder.Entity("Collage.Models.PrecenceAbcence.PrecenceAbcenceS", b =>
+            modelBuilder.Entity("Collage.Models.PrecenceAbcenceS", b =>
                 {
-                    b.HasOne("Collage.Models.Student.Stu", "Studens")
+                    b.HasOne("Collage.Models.PrecenceAbcence.Student", "Students")
                         .WithMany("PrecenceAbcence")
-                        .HasForeignKey("StudensID")
+                        .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Studens");
+                    b.Navigation("Students");
                 });
 
             modelBuilder.Entity("Collage.Models.AddressSetting.Province", b =>
@@ -274,7 +271,7 @@ namespace Collage.Migrations
                     b.Navigation("Cities");
                 });
 
-            modelBuilder.Entity("Collage.Models.Student.Stu", b =>
+            modelBuilder.Entity("Collage.Models.PrecenceAbcence.Student", b =>
                 {
                     b.Navigation("PrecenceAbcence");
                 });

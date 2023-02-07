@@ -3,6 +3,7 @@ using Collage.Interface;
 using Collage.Models;
 using Collage.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Collage.Controllers
 {
@@ -23,16 +24,31 @@ namespace Collage.Controllers
         [HttpPost]
         public IActionResult CheckStudent([FromBody] PrecenceAbcenceViewModel model)
         {
-            var PrecenceAbcenceStudents = new PrecenceAbcenceS
+            var selectedPrecence = dbContext.Set<PrecenceAbcenceS>().Where(p => !p.IsDeleted)
+                .SingleOrDefault(p => p.StudentId == model.StudentId);
+            if (selectedPrecence != null)
             {
-                CreateDate = DateTime.Now,
-                CreateUser = 1,
-                IsActivated = true,
-                PrecenceOrAbcenceStatus = model.PrecenceOrAbcenceStatus,
-            };
-            this.dbContext.Set<PrecenceAbcenceS>().Add(PrecenceAbcenceStudents);
-            //this.dbContext.SaveChanges();
+                selectedPrecence.IsUpdated = true;
+                selectedPrecence.UpdatedDate = DateTime.Now;
+                selectedPrecence.ID = model.StudentId;
+                selectedPrecence.PrecenceOrAbcenceStatus = model.PrecenceOrAbcenceStatus;
+                this.dbContext.Set<PrecenceAbcenceS>().Update(selectedPrecence);
+            }
+            else
+            {
+                var precenceAbcenceStudents = new PrecenceAbcenceS
+                {
+                    CreateDate = DateTime.Now,
+                    CreateUser = 1,
+                    IsActivated = true,
+                    PrecenceOrAbcenceStatus = model.PrecenceOrAbcenceStatus,
+                    StudentId = model.StudentId,
+                };
+                this.dbContext.Set<PrecenceAbcenceS>().Add(precenceAbcenceStudents);
+            }
+            this.dbContext.SaveChanges();
             return Ok();
+
         }
     }
 }

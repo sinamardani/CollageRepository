@@ -1,6 +1,6 @@
 ﻿using Collage.EfCoreContext.ConnectionSetting;
 using Collage.Interface;
-using Collage.Models;
+using Collage.Models.PrecenceAbcence;
 
 namespace Collage.EfCoreContext.EfRepository
 {
@@ -13,7 +13,7 @@ namespace Collage.EfCoreContext.EfRepository
             this.dbContext = dbContext;
         }
 
-        public List<Stu> GetStudents()
+        public List<Student> GetStudents()
         {
             return dbContext.Students.Where(p => !p.IsDeleted && p.IsActivated).ToList();
         }

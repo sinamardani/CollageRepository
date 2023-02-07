@@ -1,17 +1,17 @@
-﻿@model List<Stu>
+﻿@model List<Student>
 
 <div class="container ">
     <div class="row">
         @foreach (var studentItem in Model)
         {
-            <div class="col-3 mb-3 mt-3">
+            <div class="col-3 mb-3 mt-3 student-value">
                 <div class="control-group card ">
-                    <div id="status" class="bg-secondary">
+                    <div class="bg-secondary">
                         <div class="text-center p-2 container">
                             <img src="~/img/cat-1.jpg" width="45%" height="100px" style="border-radius:100%;user-select:none" />
                         </div>
                         <div class="container text-center pb-2">
-                            <div class="card-title vazir-font-bold text-info">
+                            <div class="card-title vazir-font-bold text-dark">
                                 <p id="studentFirstName">@studentItem.FirstName @studentItem.LastName</p>
                             </div>
                             <div class="card-subtitle vazir-font-medium" style="font-weight:200">
@@ -28,8 +28,8 @@
                                 </div>
                             </div>
                             <div class="row pt-2 pb-2 vazir-font-medium ">
-                                <div class="col"> <input type="button" style="width:100%" class="btn btn-success btnPrecence" id="btnPrecence" value="حاضر" /></div>
-                                <div class="col"> <input type="button" style="width:100%" class="btn btn-danger btnPrecenceAbsence" id="btnPrecenceAbsence" value="غایب" /></div>
+                                <div class="col"> <input type="button" style="width:100%" class="btn btn-success btnPrecence" value="حاضر" /></div>
+                                <div class="col"> <input type="button" style="width:100%" class="btn btn-danger btnPrecenceAbsence" value="غایب" /></div>
                             </div>
                         </div>
                     </div>
@@ -42,4 +42,5 @@
 
 @section Scripts{
     <script src="~/js/PrecenceAbsencePages/PrecenceAbcenceCtrl.js"></script>
+    <script src="~/js/PrecenceAbsencePages/PerecenceAbcenceCtrls.js"></script>
 }
